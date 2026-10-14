@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/ianindratama/TodoListApp",
+  "commit": "e0229fb12a989eb2316ac921e52e298b8a300bf1",
+  "branch": "master",
+  "visualType": "source reconstruction",
+  "uiSources": [
+    "app/src/main/res/layout/activity_task.xml",
+    "app/src/main/res/layout/task_item.xml",
+    "app/src/main/res/layout/activity_add_task.xml",
+    "app/src/main/res/layout/activity_task_detail.xml",
+    "app/src/main/res/values/colors.xml",
+    "app/src/main/res/values/themes.xml",
+    "app/src/main/res/raw/task.json",
+    "app/src/main/java/com/dicoding/todoapp/ui/list/TaskTitleView.kt",
+    "app/src/main/java/com/dicoding/todoapp/ui/list/TaskAdapter.kt",
+    "app/src/main/java/com/dicoding/todoapp/utils/DateConverter.kt"
+  ],
+  "mechanismSources": [
+    "app/src/main/java/com/dicoding/todoapp/data/TaskRepository.kt",
+    "app/src/main/java/com/dicoding/todoapp/data/TaskDatabase.kt",
+    "app/src/main/java/com/dicoding/todoapp/data/TaskDao.kt",
+    "app/src/main/java/com/dicoding/todoapp/utils/FilterUtils.kt",
+    "app/src/main/java/com/dicoding/todoapp/ui/list/TaskViewModel.kt",
+    "app/src/main/java/com/dicoding/todoapp/setting/SettingsActivity.kt",
+    "app/src/main/java/com/dicoding/todoapp/notification/NotificationWorker.kt",
+    "app/build.gradle",
+    "build.gradle"
+  ],
+  "limitations": [
+    "No Android build or Espresso run performed.",
+    "Legacy jcenter repository and Android toolchain.",
+    "Notification worker assumes an active task exists.",
+    "Periodic background work does not specify an exact daily clock time.",
+    "No task editing, cloud synchronization, or release/usage evidence."
+  ],
+  "attribution": [
+    "UI seed records are preserved; dates use Asia/Jakarta and overdue state at review date."
+  ]
+}
